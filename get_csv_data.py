@@ -29,7 +29,7 @@ def mr_stock_price(ticker):
     now = datetime.datetime.now()
     earlier =  now - datetime.timedelta(days = 4)
     price = mf.fetch_historical_yahoo(ticker, (earlier.year, earlier.month, earlier.day), (now.year, now.month, now.day), dividends=False)
-    
+     
     for r in price:
         r = r.split(',')
         try:
