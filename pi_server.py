@@ -20,7 +20,7 @@ class fred_data():
         self.dates = dates
         self.vals = vals
         self.metric = metric
-
+ 
 class StringGenerator(object):
     @cherrypy.expose
     def index(self):
