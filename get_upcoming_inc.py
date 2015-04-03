@@ -23,7 +23,7 @@ def get_upcoming_increases():
         name = sheet.row_values(i, start_colx = 1, end_colx=2)[0]
         ex_date_dict[name.lower()] = ex_date
     
-    for i in range(6, 256):
+    for i in range(6, 256): 
     
         name = sheet2.row_values(i, start_colx = 1, end_colx=2)[0]
         
