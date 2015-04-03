@@ -20,7 +20,7 @@ import csv
 import os
 from sklearn.externals import joblib
 import shutil
-
+ 
 class fred_data():
     def __init__(self, metric, dates, vals):
         self.dates = dates
