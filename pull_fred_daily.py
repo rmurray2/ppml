@@ -52,4 +52,4 @@ def create_fred_objs():
         fredobjs.append(copy.deepcopy(obj))
             
     joblib.dump(fredobjs, '/home/ubuntu/dgrpred/dump/fred_obj_temp_dump')
-    
+
