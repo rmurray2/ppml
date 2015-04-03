@@ -55,7 +55,7 @@ class RFE_CV():
     
     def get_params(self):
         pass    
-    
+     
 def fit(ticker):
 
     if not os.path.isdir('/home/ubuntu/dgrpred/dump/temp_persistence/'+ticker): #don't fit model if the data's not there
