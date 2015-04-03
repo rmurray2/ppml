@@ -35,7 +35,6 @@ class fred_data():
         self.metric = metric
         
 
-
 def create_fred_objs():
     fseries = ['NAPMII','CUUR0000SA0L2', 'IPFINAL','CUUR0000SAD','HOUSTNE',
                'MHHNGSP','WJFUELUSGULF','CES1021000001','PRRESCONS','PNRESCONS', 
