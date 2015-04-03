@@ -49,6 +49,6 @@ def create_fred_objs():
         dates, vals= pullfred(2003, q) #go back to 2003, ending with MR data
         obj = fred_data(q, dates, vals)
         fredobjs.append(copy.deepcopy(obj))
-            
+        
     joblib.dump(fredobjs, '/home/ubuntu/dgrpred/dump/fred_obj_temp_dump')
 
