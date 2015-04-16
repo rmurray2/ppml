@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 13 18:35:29 2015
+@author: rm
+"""
+
 starting_grades = [
 #columns correspond to time stamps (month-year)
 [ ], [ ], [grade1, grade2], [ ],  #student 1’s grades
