@@ -4,20 +4,6 @@ Created on Fri Mar 13 18:35:29 2015
 @author: rm
 """
 
-starting_grades = [
-#columns correspond to time stamps (month-year)
-[ ], [ ], [grade1, grade2], [ ],  #student 1’s grades
-[ ], [grade3, grade4], [ ] , [ ], #student 2’s grades
-…
-]
-
-starting_credits = [
-#columns correspond to time stamps (month-year)
-[ ], [ ], [1, 2], [ ],  #student 1’s credits
-[ ], [5, 6], [ ] , [ ], #student 2’s credits
-…
-]
-
 
 credit_grade_dict = {} #generate {credit : grade_list } vector
 
